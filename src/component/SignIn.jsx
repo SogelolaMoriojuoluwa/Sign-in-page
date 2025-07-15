@@ -16,12 +16,14 @@ useEffect(() => {
   return (
    <>
    <div className="content">
-       <h2>Welcome {userInfo?.name}</h2>
+      <div className="content-body">
+         <h2>Welcome {userInfo?.name}</h2>
        <div className="image">
          <img src={userInfo?.picture} alt="" />
        </div>
        
        <p>{userInfo?.email}</p>
+      </div>
     </div>
    </>
   )

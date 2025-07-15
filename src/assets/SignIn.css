@@ -1,13 +1,23 @@
 .content{
      display: flex;
-     flex-direction: column;
+     text-align: center;
     justify-content: center;
     min-height: 100vh;
     align-items: center;
+    
+}
+.content-body{
+    width: 500px;
+    padding: 40px;    
+    border: 2px solid black;
+    border-radius: 10px;
 }
 .image{
     width: 100px;
     height: 100px;
+    display: block;
+    margin: auto;
+
     
 }
 .image>img{
